@@ -1,1 +1,6 @@
 c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\bin\Debug\HMS_Sprint1.exe.config
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\HMS_Sprint1.exe.config
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.csprojResolveAssemblyReference.cache
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.ReserveUI.resources
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.Properties.Resources.resources
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.csproj.GenerateResource.Cache
