@@ -16,5 +16,16 @@ namespace HMS_Sprint1
         {
             InitializeComponent();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            picLogin.Image =  Image.FromFile(System.IO.Directory.GetCurrentDirectory() + @"\img\pic1.jpg");
+        }
+
+        private void butSignup_Click(object sender, EventArgs e)
+        {
+            frmSignup frmSign = new frmSignup();
+            frmSign.Show();
+        }
     }
 }

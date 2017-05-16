@@ -28,20 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.butSignin = new System.Windows.Forms.Button();
+            this.butSignup = new System.Windows.Forms.Button();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.picLogin = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picLogin)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Adobe Heiti Std R", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label1.Location = new System.Drawing.Point(55, 24);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(482, 90);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nayeon Hotel";
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtPassword.Location = new System.Drawing.Point(82, 509);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(400, 49);
+            this.txtPassword.TabIndex = 4;
+            // 
+            // butSignin
+            // 
+            this.butSignin.Location = new System.Drawing.Point(82, 575);
+            this.butSignin.Name = "butSignin";
+            this.butSignin.Size = new System.Drawing.Size(400, 50);
+            this.butSignin.TabIndex = 5;
+            this.butSignin.Text = "Sign in";
+            this.butSignin.UseVisualStyleBackColor = true;
+            // 
+            // butSignup
+            // 
+            this.butSignup.Location = new System.Drawing.Point(82, 631);
+            this.butSignup.Name = "butSignup";
+            this.butSignup.Size = new System.Drawing.Size(400, 50);
+            this.butSignup.TabIndex = 6;
+            this.butSignup.Text = "Sign Up";
+            this.butSignup.UseVisualStyleBackColor = true;
+            this.butSignup.Click += new System.EventHandler(this.butSignup_Click);
+            // 
+            // txtID
+            // 
+            this.txtID.Font = new System.Drawing.Font("굴림", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.txtID.Location = new System.Drawing.Point(82, 436);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(400, 49);
+            this.txtID.TabIndex = 7;
+            // 
+            // picLogin
+            // 
+            this.picLogin.Location = new System.Drawing.Point(82, 136);
+            this.picLogin.Name = "picLogin";
+            this.picLogin.Size = new System.Drawing.Size(400, 246);
+            this.picLogin.TabIndex = 8;
+            this.picLogin.TabStop = false;
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(643, 585);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(578, 744);
+            this.Controls.Add(this.picLogin);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.butSignup);
+            this.Controls.Add(this.butSignin);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.label1);
             this.Name = "frmMain";
-            this.Text = "Form1";
+            this.Text = "Twice Nayeon HMS";
+            this.Load += new System.EventHandler(this.frmMain_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picLogin)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button butSignin;
+        private System.Windows.Forms.Button butSignup;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.PictureBox picLogin;
     }
 }
 
