@@ -52,6 +52,7 @@
             this.butSignin.TabIndex = 5;
             this.butSignin.Text = "Sign in";
             this.butSignin.UseVisualStyleBackColor = true;
+            this.butSignin.Click += new System.EventHandler(this.butSignin_Click);
             // 
             // butSignup
             // 

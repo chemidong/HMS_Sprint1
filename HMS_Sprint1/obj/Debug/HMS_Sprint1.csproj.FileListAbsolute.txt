@@ -16,3 +16,4 @@ c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1
 c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\bin\Debug\EntityFramework.SqlServer.xml
 c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\bin\Debug\System.Data.SQLite.xml
 c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.frmSignup.resources
+C:\Users\chemidong\Documents\Visual Studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.frmMain2.resources

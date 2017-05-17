@@ -7,11 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace HMS_Sprint1
 {
     public partial class frmMain : Form
     {
+        private SQLiteConnection sql_con;
+        private SQLiteCommand sql_cmd = new SQLiteCommand();
+        private SQLiteDataReader DB;
+        private String dbPath;
+     
         public frmMain()
         {
             InitializeComponent();
@@ -19,16 +25,19 @@ namespace HMS_Sprint1
 
         private void frmMain_Load(object sender, EventArgs e)
         {
+            dbPath = System.IO.Directory.GetCurrentDirectory() + @"\DB\DB.db";
             picLogin.Image =  Image.FromFile(System.IO.Directory.GetCurrentDirectory() + @"\img\pic1.jpg");
-            this.txtID.Enter += new EventHandler(txtID_Enter);
-            this.txtID.Leave += new EventHandler(txtID_Leave);
-            txtID_SetText();
 
             this.txtPassword.Enter += new EventHandler(txtPassword_Enter);
             this.txtPassword.Leave += new EventHandler(txtPassword_Leave);
             txtPassword_SetText();
 
-            butSignin.Focus();
+            this.txtID.Enter += new EventHandler(txtID_Enter);
+            this.txtID.Leave += new EventHandler(txtID_Leave);
+            txtID_SetText();
+
+            txtID.Select();
+
         }
         private void txtID_Enter(object sender, EventArgs e)
         {
@@ -42,8 +51,6 @@ namespace HMS_Sprint1
         }
         private void txtID_SetText()
         {
-            if (txtID.ForeColor == Color.Black)
-                return;
             this.txtID.Text = "ID";
             txtID.ForeColor = Color.Gray;
         }
@@ -71,6 +78,43 @@ namespace HMS_Sprint1
         private void txtID_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void butSignin_Click(object sender, EventArgs e)
+        {
+            sql_con = new SQLiteConnection("Data Source=" + dbPath);
+            sql_cmd = new SQLiteCommand("select * from user", sql_con);
+            bool login = false;
+            try
+            {
+                sql_cmd.Connection.Open();
+                DB = sql_cmd.ExecuteReader();
+                while(DB.Read())
+                {
+                    string id = (string)DB["id"];
+                    string passwd = (string)DB["pwd"];
+                    if(txtID.Text.Trim() == id && txtPassword.Text.Trim() == passwd)
+                    {
+                        login = true;
+                        break;
+                    }
+                }
+            }
+            finally
+            {
+                DB.Close();
+                sql_cmd.Connection.Close();
+            }
+            if(login)
+            {
+                frmMain2 frmMain2 = new frmMain2();
+                frmMain2.Passvalue = txtID.Text;
+                frmMain2.Show();
+            }
+            else
+            {
+                MessageBox.Show("Login Failed");
+            }
         }
     }
 }
