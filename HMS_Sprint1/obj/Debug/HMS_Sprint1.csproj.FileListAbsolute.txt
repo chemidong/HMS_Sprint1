@@ -16,3 +16,22 @@ c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1
 c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\bin\Debug\EntityFramework.SqlServer.xml
 c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\bin\Debug\System.Data.SQLite.xml
 c:\users\chemidong\documents\visual studio 2015\Projects\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.frmSignup.resources
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\HMS_Sprint1.exe.config
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\HMS_Sprint1.exe
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\HMS_Sprint1.pdb
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\EntityFramework.dll
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\EntityFramework.xml
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.csprojResolveAssemblyReference.cache
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.frmMain.resources
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.frmReserve.resources
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.frmSignup.resources
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.Properties.Resources.resources
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.csproj.GenerateResource.Cache
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.exe
+C:\Users\Jongmin\Desktop\소공개\HMS_Sprint1\HMS_Sprint1\obj\Debug\HMS_Sprint1.pdb
